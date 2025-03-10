@@ -1,6 +1,7 @@
 module github.com/moncho/dry
 
 go 1.22
+toolchain go1.23.7
 
 require (
 	github.com/Microsoft/go-winio v0.6.1 // indirect
@@ -25,8 +26,8 @@ require (
 	github.com/opencontainers/image-spec v1.1.0
 	github.com/sirupsen/logrus v1.9.3
 	go.uber.org/goleak v1.1.12
-	golang.org/x/crypto v0.21.0
-	golang.org/x/net v0.21.0
+	golang.org/x/crypto v0.36.0
+	golang.org/x/net v0.37.0
 )
 
 require (
@@ -34,8 +35,8 @@ require (
 	github.com/google/go-cmp v0.6.0
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/nsf/termbox-go v1.1.1 // indirect
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 )
 
 require github.com/distribution/reference v0.5.0
@@ -55,8 +56,9 @@ require (
 	go.opentelemetry.io/otel/sdk v1.24.0 // indirect
 	go.opentelemetry.io/otel/trace v1.24.0 // indirect
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
-	golang.org/x/mod v0.15.0 // indirect
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/sync v0.12.0 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
-	golang.org/x/tools v0.18.0 // indirect
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	gotest.tools/v3 v3.5.0 // indirect
 )
